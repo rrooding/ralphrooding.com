@@ -1,0 +1,118 @@
+@import url('/css/reset.css');
+@import url('/css/responsive.gs.12col.css');
+
+body {
+  background: url('/images/dust.png') 0% 0% / 200px 150px, #f3f3f5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+section {
+  margin: 30px 0 30px 0;
+}
+
+footer {
+  border-top: 1px solid #a9a9a9;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.7em;
+  color: #bbbbbb;
+}
+
+.profile-photo {
+  width: 100%;
+}
+
+.connect {
+  border-top: 1px solid #a9a9a9;
+  padding-top: 30px;
+}
+
+.connect h1 {
+  font-size: 1.2em;
+}
+
+.connect li {
+  display: inline;
+}
+
+.connect a {
+  display: inline-block;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  padding: 4px 0 0 35px;
+  margin-right: 50px;
+  height: 24px;
+}
+
+.connect .email a {
+  background-image: url('/images/email.png');
+}
+
+.connect li.github a {
+  background-image: url('/images/github.png');
+}
+
+.connect li.twitter a {
+  background-image: url('/images/twitter.png');
+}
+
+.connect li.linkedin a {
+  background-image: url('/images/linkedin.png');
+}
+
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.9em;
+  }
+
+  .profile-photo {
+    margin-bottom: 30px;
+  }
+
+  p {
+    padding: 0 10px 0 10px;
+  }
+
+  .connect h1 {
+    margin-bottom: 10px;
+  }
+
+  .connect li {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .connect a {
+    width: 100px;
+    margin-right: 0;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
