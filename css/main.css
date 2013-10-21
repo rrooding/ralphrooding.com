@@ -41,6 +41,18 @@ footer {
   width: 100%;
 }
 
+.intro {
+  margin: 0
+}
+
+.intro p {
+  margin-bottom: 10px;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
 .connect {
   border-top: 1px solid #a9a9a9;
   padding-top: 30px;
